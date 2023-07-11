@@ -38,6 +38,9 @@ ros2 launch ublox_gps ublox_gps_node_zedf9p-launch.py
 
 Note: Values are published on `/fix` topic
 
+![alt text](pics/1.png)
+![alt text](pics/2.png)
+
 
 
 
