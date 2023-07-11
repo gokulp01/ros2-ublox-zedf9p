@@ -7,8 +7,8 @@
      ublox_serialization provides header files for serialization of ROS messages to and from u-blox message format.
 
   </description>
-  <author>Johannes Meyer</author>
-  <maintainer email="vmlane@alum.mit.edu">Veronica Lane</maintainer>
+  <author>Gokul</author>
+  <maintainer email="gokulp2@illinois.edu">Gokul</maintainer>
   <license>BSD</license>
   <url>http://ros.org/wiki/ublox</url>
 
