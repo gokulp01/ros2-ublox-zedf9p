@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<package format='2'>
+  <name>ublox_gps</name>
+  <version>2.2.0</version>
+  <description>
+     Driver for u-blox GPS devices.
+  </description>
+  <author>Johannes Meyer</author>
+  <maintainer email="gcross.code@icloud.com">Gareth Cross</maintainer>
+  <maintainer email="quchao@seas.upenn.edu">Chao Qu</maintainer>
+  <maintainer email="vmlane@alum.mit.edu">Veronica Lane</maintainer>
+  <license>BSD</license>
+  <url>http://ros.org/wiki/ublox</url>
+
+  <buildtool_depend>ament_cmake_ros</buildtool_depend>
+
+  <depend>asio</depend>
+  <depend>diagnostic_msgs</depend>
+  <depend>diagnostic_updater</depend>
+  <depend>geometry_msgs</depend>
+  <depend>rcl_interfaces</depend>
+  <depend>rclcpp</depend>
+  <depend>rclcpp_components</depend>
+  <depend>sensor_msgs</depend>
+  <depend>std_msgs</depend>
+  <depend>tf2</depend>
+  <depend>ublox_msgs</depend>
+  <depend>ublox_serialization</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

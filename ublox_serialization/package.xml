@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>ublox_serialization</name>
+  <version>2.2.0</version>
+  <description>
+
+     ublox_serialization provides header files for serialization of ROS messages to and from u-blox message format.
+
+  </description>
+  <author>Johannes Meyer</author>
+  <maintainer email="vmlane@alum.mit.edu">Veronica Lane</maintainer>
+  <license>BSD</license>
+  <url>http://ros.org/wiki/ublox</url>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+
+</package>
