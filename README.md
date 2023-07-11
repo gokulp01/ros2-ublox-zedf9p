@@ -174,10 +174,6 @@ To publish a given u-blox message to a ROS topic, set the parameter shown below 
 ### TIM messages
 * `publish/tim/tm2`: Topic `timtm2`. **TIM devices only**
 
-## Launch
-
-A sample launch file `ublox_device.launch` loads the parameters from a `.yaml` file in the `ublox_gps/config` folder, sample configuration files are included. The required arguments are `node_name` and `param_file_name`.
-The two topics to which you should subscribe are `~fix` and `~fix_velocity`. The angular component of `fix_velocity` is unused.
 
 
 ## Adding new parameters
@@ -188,22 +184,11 @@ The two topics to which you should subscribe are `~fix` and `~fix_velocity`. The
 3. Modify this README file and add the parameter name and description in the appropriate section. State whether there is a default value or if the parameter is required.
 4. Modify one of the sample `.yaml` configuration files in `ublox_gps/config` to include the parameter or add a new sample `.yaml` for your device.
 
-# Known Issues
-
-## Unimplemented / Untested Devices
-
-`TimProduct` and `FtsProduct` are currently unimplemented skeleton classes. `AdrUdrProduct` is implemented, with the exception of `initializeRosDiagnostics()` and has not been tested on hardware. 
-
-`UbloxFirmware7` has not been properly tested on a device with firmware version 7. `UbloxFirmware6` has been tested on a device with firmware version 8, but not with firmware version 6.
 
 ## Debugging
 
 For debugging messages set the debug parameter to > 0. The range for debug is 0-4. At level 1 it prints configuration messages and checksum errors, at level 2 it also prints ACK/NACK messages and sent messages. At level 3 it prints the received bytes being decoded by a specific message reader. At level 4 it prints the incoming buffer before it is split by message header.
 
-## Troubleshooting
-
-1. Why can't the ublox_gps node open my device, even though I have correctly specified the path in `/dev`? 
-* Make sure you are the owner of the device, or a member of `dialout` group.
 
 # Links
 Consult the [official protocol spec](https://www.u-blox.com/sites/default/files/products/documents/u-blox8-M8_ReceiverDescrProtSpec_(UBX-13003221)_Public.pdf) for details on packets supported by u-blox devices.
