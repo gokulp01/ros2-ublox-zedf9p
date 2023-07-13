@@ -196,4 +196,4 @@ For debugging messages set the debug parameter to > 0. The range for debug is 0-
 
 
 # Links
-Consult the [official protocol spec](https://www.u-blox.com/sites/default/files/products/documents/u-blox8-M8_ReceiverDescrProtSpec_(UBX-13003221)_Public.pdf) for details on packets supported by u-blox devices.
+Consult the [official protocol spec](https://content.u-blox.com/sites/default/files/documents/EVK-F9P-01_UserGuide_UBX-22038408.pdf) for details on packets supported by u-blox devices.
