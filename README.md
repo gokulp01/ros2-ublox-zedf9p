@@ -1,5 +1,5 @@
 ## Description
-This package provides ROS2 support for u-blox ZED F9P GPS receivers. Most of this driver has been written based off the original ROS(1) driver that can be found here: https://github.com/KumarRobotics/ublox/tree/master Changes made to support the latest firmware are listed below: 
+This package provides **ROS2** support for **u-blox ZED F9P GPS receivers**. Most of this driver has been written based off the original ROS(1) driver that can be found here: https://github.com/KumarRobotics/ublox/tree/master Changes made to support the latest firmware are listed below: 
 
 Features:
 
