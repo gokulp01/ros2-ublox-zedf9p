@@ -42,8 +42,6 @@ Note: Values are published on `/fix` topic
 ![alt text](pics/2.png)
 
 
-
-
 ## Options
 The `ublox_gps` node supports the following parameters for all products and firmware versions:
 * `device`: Path to the device port. Defaults to `/dev/ttyACM0`.
@@ -197,3 +195,5 @@ For debugging messages set the debug parameter to > 0. The range for debug is 0-
 
 # Links
 Consult the [official protocol spec](https://content.u-blox.com/sites/default/files/documents/EVK-F9P-01_UserGuide_UBX-22038408.pdf) for details on packets supported by u-blox devices.
+
+
