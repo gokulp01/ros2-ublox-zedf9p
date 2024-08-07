@@ -42,7 +42,7 @@ Note: Values are published on `/fix` topic
 ![alt text](pics/2.png)
 
 
-## Some common errors and how to fix them (this list will be updated as and when new issues are raised.
+## Some common errors and how to fix them (this list will be updated as and when new issues are raised).
 1. `Could NOT find asio (missing: ASIO_INCLUDE_DIR)`: To fix it, install the asio package on your system.
    
    ```sudo apt-get install libasio-dev```
